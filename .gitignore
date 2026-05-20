@@ -1,0 +1,100 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+.installed.cfg
+lib/
+lib64/
+
+# ================================
+# Virtual Environment
+# ================================
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+!.env.example
+
+# ================================
+# Jupyter Notebooks
+# ================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ================================
+# ML Model & Training Artifacts
+# ================================
+results/
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Saved models (large files)
+saved_summary_model/
+
+# ================================
+# Data Files (SAMSum dataset)
+# ================================
+samsum-train.csv
+samsum-test.csv
+samsum-validation.csv
+*.csv
+*.tsv
+*.json
+!config.json
+!generation_config.json
+!tokenizer_config.json
+!tokenizer.json
+
+# ================================
+# FastAPI / Web App
+# ================================
+*.log
+*.pid
+*.sock
+
+# ================================
+# OS & Editor Artifacts
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ================================
+# Security — NEVER upload these
+# ================================
+*.pem
+*.key
+*.cert
+*.p12
+secrets.json
+secrets.yaml
+credentials.json
+.secrets/
